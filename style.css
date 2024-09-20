@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('/fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #ffe5ec;
+}
