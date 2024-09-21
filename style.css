@@ -1,8 +1,155 @@
 @font-face {
-    font-family: 'quicksand';
-    src: url('/fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand/static/Quicksand-Bold.ttf") format("truetype");
 }
 
 body {
     background-color: #ffe5ec;
+    font-family: "Quicksand", sans-serif;
+    color: #723d46;
 }
+
+/*header*/
+
+#menu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB6F92;
+    color: #FFE5EC;
+    position: sticky;
+    border-radius: 15px;
+    box-sizing: border-box;
+    top: 0;
+}
+
+#headings {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width:100%;
+}
+
+#headings li {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 8px;
+}
+
+/*main divs for separating posts and extras*/
+
+#divPosts, #divExtras {
+    background-color: #FFB3C6;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#divPosts {
+    display: inline-block;
+}
+
+#divNewPost, #divTimeline, #divWeather, #divMemories {
+    background-color: #FFC2D1;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#anyNews {
+    color: #FF8FAB;
+    margin: 20px;
+}
+
+#divNewPost {
+    width: 470px;
+}
+
+#textNewPost {
+    font-family: "Quicksand";
+    outline: none;
+    background-color: #FFE5EC;
+    color: #723d46;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    resize: none;
+    width: 95%;
+    height: 80px;
+}
+
+#textNewPost::placeholder{
+    color: #FFC2D1;
+}
+
+#btnNewPost {
+    font-family: "Quicksand";
+    background-color: #FB6F92;
+    color: #ffe5ec;
+    border: 1px #ffe5ec;
+    border-radius: 7px;
+    margin: 7px;
+    padding: 7px;
+}
+
+#btnNewPost:active {
+    position: relative;
+    top: 1.5px;
+}
+
+#divPosts {
+    width: 100%;
+}
+
+.divPost {
+    display: flex;
+    background-color: #FFE5EC;
+    border-radius: 20px;
+    padding:15px;
+    margin: 15px 0;
+}
+
+.divPost img {
+    height: 70px;
+    border-radius: 100px;
+}
+
+.postUsername {
+    color: #FB6F92;
+    top: 0px;
+    right: 0px;
+    margin: 0 0;
+    padding: 2px;
+}
+
+.divPostContent {
+    background-color: #FFB3C6;
+    width: 350px;
+    margin: 5px 5px;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+.divPostAwoos {
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.divPostAwoos button {
+    background: none;
+    width: 50px;
+    border: none;
+    padding: 0;
+}
+
+.divPostAwoos button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.divPostAwoos img {
+    width: 80%;
+    height: 70%;
+}
+
