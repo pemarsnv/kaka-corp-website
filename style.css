@@ -12,7 +12,7 @@ body {
 
 /*header*/
 
-#menu {
+header {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -39,14 +39,14 @@ body {
 
 /*main divs for separating posts and extras*/
 
-#divMainContent {
+#main-content {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
 
-#divPosts {
+#posts {
     display: inline-block;
     flex-grow: 1;
     background-color: #FFB3C6;
@@ -55,14 +55,14 @@ body {
     width: 575px;
 }
 
-#divNewPost, #divTimeline {
+#new-post, #timeline {
     background-color: #FFC2D1;
     margin: 20px;
     padding: 15px;
     border-radius: 25px;
 }
 
-#divWeather, #divMemories, #divMusic {
+#weather, #memories, #music {
     flex-grow: 1;
     background-color: #FFC2D1;
     margin: 10px;
@@ -71,16 +71,16 @@ body {
     min-width: 300px;
 }
 
-#anyNews {
+#any-news {
     color: #FF8FAB;
     margin: 20px;
 }
 
-#divNewPost {
+#new-post {
     width: 90%;
 }
 
-#textNewPost {
+#text-new-post {
     font-family: "Quicksand";
     outline: none;
     background-color: #FFE5EC;
@@ -94,11 +94,11 @@ body {
     height: 80px;
 }
 
-#textNewPost::placeholder{
+#text-new-post::placeholder{
     color: #FFC2D1;
 }
 
-#btnNewPost {
+#btn-new-post {
     font-family: "Quicksand";
     background-color: #FB6F92;
     color: #ffe5ec;
@@ -108,16 +108,16 @@ body {
     padding: 7px;
 }
 
-#btnNewPost:active {
+#btn-new-spot:active {
     position: relative;
     top: 1.5px;
 }
 
-#divTimeline {
+#timeline {
     width: 90%;
 }
 
-.divPost {
+.post {
     width: 93%;
     display: flex;
     background-color: #FFE5EC;
@@ -126,20 +126,20 @@ body {
     margin: 15px 0;
 }
 
-.divPostText {
+.post-text {
     width: 90%;
     float: right;
     
 }
 
-.divPost img {
+.post img {
     height: 70px;
     width: 70px;
     border-radius: 100px;
     margin: 0 10px 0 0;
 }
 
-.postUsername {
+.post-username {
     color: #FB6F92;
     top: 0px;
     right: 0px;
@@ -147,7 +147,7 @@ body {
     padding: 2px;
 }
 
-.divPostContent {
+.post-content {
     background-color: #FFB3C6;
     width: 95%;
     margin: 2px 2px;
@@ -156,11 +156,11 @@ body {
     height: auto;
 }
 
-.divPostContent p {
+.post-content p {
     font-size: 17px;
 }
 
-.divPostAwoos {
+.post-awoos {
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -168,19 +168,19 @@ body {
     font-size: 19px;
 }
 
-.divPostAwoos button {
+.post-awoos button {
     background: none;
     width: 50px;
     border: none;
     padding: 0;
 }
 
-.divPostAwoos button:hover {
+.post-awoos button:hover {
     transform: scale(1.1);
     transition: 0.2s;
 }
 
-.divPostAwoos img {
+.post-awoos img {
     width: 80%;
     height: 70%;
 }
