@@ -1,4 +1,4 @@
-# kaka-corp-website
+# la meute
 
 as a gift for my five best friends, i decided to start a website dedicated to us🤍
 - the website will be locked behind a connection page, only the six of us can access its content
