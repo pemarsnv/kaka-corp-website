@@ -2,9 +2,7 @@
 
 as a gift for my five best friends (i am indeed an amazing friend to have around), i decided to make a little website dedicated to us🤍
 
-notes:
-- some of the website's content will be locked behind a connection page (only the six of us have logins)
-- four type of pages will be available in the final website:
+⚠ some of the website's content will be locked behind a connection page (only the six of us have logins)
 
 ### the homepage 
 
