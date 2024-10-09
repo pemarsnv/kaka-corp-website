@@ -1,12 +1,14 @@
 # la meute
 
-as a gift for my five best friends, i decided to start a website dedicated to us🤍
-- the website will be locked behind a connection page, only the six of us can access its content
+as a gift for my five best friends (i am indeed an amazing friend to have around), i decided to make a little website dedicated to us🤍
+
+notes:
+- some of the website's content will be locked behind a connection page (only the six of us have logins)
 - four type of pages will be available in the final website:
 
 ### the homepage 
 
-the homepage will be built around a feed of posts as the main activity, but also two divs, one being a daily memory we all share with a picture, the other being the current weather in each of the towns we live in
+built around a feed of posts as the main activity, it will also contain a section about  but also two divs, one being a daily memory we all share with a picture, the other being the current weather in each of the towns we live in
 
 ### the chats page 
 
@@ -19,5 +21,4 @@ you can either look at your own profile and modify it (only your pfp and your bi
 
 ### the game page
 
-each day, a game similar to valdle or loldle will be available, but with the guess of one or our interests!!
-the criterias will be the type of interest (anime, game or tv show) and one for each of us indicating if they are interested in it or not
+
